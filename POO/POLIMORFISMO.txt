@@ -1,0 +1,33 @@
+class Animal {
+public void makeSound() {
+System.out.println("Grr...");
+}
+}
+class Cat extends Animal {
+public void makeSound() {
+System.out.println("Meow");
+}
+}
+class Dog extends Animal {
+public void makeSound() {
+System.out.println("Woof");
+}
+}
+
+
+
+Como todos los objetos Gato y Perro son objetos Animales, podemos hacer lo siguiente
+
+public static void main(String[ ] args) {
+Animal a = new Dog();
+Animal b = new Cat();
+}
+
+
+Creamos dos variables de referencia de tipo Animal y las apuntamos a los objetos Gato y Perro. 
+Ahora, podemos llamar a los métodos makeSound().
+
+a.makeSound();
+	//Outputs "Woof"
+b.makeSound();
+	//Outputs "Meo

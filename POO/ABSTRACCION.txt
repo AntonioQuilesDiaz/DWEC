@@ -1,0 +1,10 @@
+public class Vehiculo {
+//Funcionalidades
+    private void pulsarBotonDeArranque(){
+
+    }
+
+    public void arrancar(){
+        pulsarBotonDeArranque();
+    }
+}
