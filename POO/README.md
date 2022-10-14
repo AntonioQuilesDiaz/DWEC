@@ -78,8 +78,8 @@ Para realizar este apartado de Tarea INTERMEDIO, he creado un fichero de texto p
 
 **UML de ejemplo para la solución**
 
-![UML](/SUP03/Desktop/herencias.png)
-![UML](/SUP03/Desktop/polimorfismo.png)
+![UML](/imagenes/herencias.png)
+![UML](/imagenes/polimorfismo.png)
 
 
 
