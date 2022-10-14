@@ -78,25 +78,25 @@ Para realizar este apartado de Tarea INTERMEDIO, he creado un fichero de texto p
 
 **UML de ejemplo para la solución**
 
-![UML](/imagenes/herencias.png)
-![UML](/imagenes/polimorfismo.png)
+![UML](imagenes/herencias.png)
+![UML](imagenes/polimorfismo.png)
 
 
 
 ### 💡 Pruebas
 
-![HERENCIA](/imagenes/herencia1.png)
-![HERENCIA](/imagenes/herencia2.png)
+![HERENCIA](imagenes/herencia1.png)
+![HERENCIA](imagenes/herencia2.png)
 
 
 
-![POLIMORFISMO](/imagenes/polimorfismo1.png)
+![POLIMORFISMO](imagenes/polimorfismo1.png)
 
 Como todos los objetos Gato y Perro son objetos Animales, podemos hacer lo siguiente
 
-![POLIMORFISMO](/imagenes/polimorfismo2.png)
+![POLIMORFISMO](imagenes/polimorfismo2.png)
 
 Creamos dos variables de referencia de tipo Animal y las apuntamos a los objetos Gato y Perro. 
 Ahora, podemos llamar a los métodos makeSound().
 
-![POLIMORFISMO](/imagenes/polimorfismo3.png)
+![POLIMORFISMO](imagenes/polimorfismo3.png)
