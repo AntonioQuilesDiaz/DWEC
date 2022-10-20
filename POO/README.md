@@ -85,6 +85,11 @@ Para realizar este apartado de Tarea INTERMEDIO, he creado un fichero de texto p
 
 ### 💡 Pruebas
 
+![ABSTRACCION](imagenes/abstraccion2.png)
+![ABSTRACCION](imagenes/abstraccion1.png)
+
+
+
 ![HERENCIA](imagenes/herencia1.png)
 ![HERENCIA](imagenes/herencia2.png)
 
