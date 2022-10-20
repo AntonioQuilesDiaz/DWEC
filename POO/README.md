@@ -84,17 +84,17 @@ Para realizar este apartado de Tarea INTERMEDIO, he creado un fichero de texto p
 
 
 ### 💡 Pruebas
-
+####  ABSTRACCION
 ![ABSTRACCION](imagenes/abstraccion2.png)
 ![ABSTRACCION](imagenes/abstraccion1.png)
 
 
-
+####  HERENCIA
 ![HERENCIA](imagenes/herencia1.png)
 ![HERENCIA](imagenes/herencia2.png)
 
 
-
+####  POLIMORFISMO
 ![POLIMORFISMO](imagenes/polimorfismo1.png)
 
 Como todos los objetos Gato y Perro son objetos Animales, podemos hacer lo siguiente
