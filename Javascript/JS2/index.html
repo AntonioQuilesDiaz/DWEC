@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 50px;
+        }
+        td{
+            border-radius: 50px;
+            padding-right: 100px;
+        }
+        #myInput{
+            margin-top: 50px;
+        }
+        #myInput, #myInput2{
+            width: 320px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+        
+
+    <input type="text" id="myInput" onkeyup="Capital()" placeholder="Capitales..">
+    <br>
+    <input type="text" id="myInput2" onkeyup="Pais()" placeholder="Paises..">
+        
+        <table id="tabla">
+            <tr><td style="background-color: #D6D6D6;">CAPITAL</td><td style="background-color: #D6D6D6;">PAIS</td></tr>
+        </table>
+
+
+    <script src="main.js" type="text/Javascript"></script>
+</body>
+</html>
