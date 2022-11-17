@@ -7,7 +7,7 @@
 4.Añadir a la historia de usuario un segundo filtro destinado a filtrar por países además de añadir la descripción de la historia de usuario teniendo como referencia el arriba indicado.
 
 ## Criterios de aceptacion y pruebas
-![5,4](imagenes/uml.png)
+![UML](Imagenes/uml.png)
 
 ### Criterio 1
 
