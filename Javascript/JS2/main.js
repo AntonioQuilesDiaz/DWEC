@@ -8,6 +8,10 @@ var paises = [
         "capital" : "Berlín"
     },
     {
+        "pais" : "Rusia",
+        "capital" : "Moscú"
+    },
+    {
         "pais" : "Albania",
         "capital" : "Tirana"
     },
