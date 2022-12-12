@@ -1,0 +1,58 @@
+table {
+    width: 50%;
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+.estiloTabla td {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.fondoTR td {
+    background-color: rgb(53, 53, 53);
+    color: rgb(251, 255, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#imagenDIV {
+    float: right;
+    display: block;
+}
+
+#imagenDIV img {
+    width: 800px;
+    height: 800px;
+}
+
+td {
+    border-spacing: 0;
+    border: 1px solid #000;
+}
+
+input {
+    border-radius: 50px;
+    padding-left: 10px;
+    width: 840px;
+    height: 35px;
+    margin-left: 18px;
+    font-size: 20px;
+    color: rgb(251, 255, 0);
+    background-color: rgb(53, 53, 53);
+}
+
+table img {
+    height: 5em;
+}
+
+button {
+    color: rgb(251, 255, 0);
+    background-color: rgb(53, 53, 53);
+    border-radius: 50px;
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
