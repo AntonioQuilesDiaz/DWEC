@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    font-family: Candara;
+}
+
+body{
+	background-image: url(./Imagenes/Fondo2.jpg);
+}
+
+main{
+	background: white;
+	text-decoration: none;
+	margin-top: 13%;
+	margin-left: 37%;
+	width: 500px;
+	height: 450px;
+	box-shadow: 0px 0px 14px -4px #000;
+}
+
+
+
+
+h1{
+	text-align: center;
+	font-family: 'Open sans';
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+
+
+.Nombre{
+	width: 225px;
+}
+
+.Nombre input{
+	border-color: #E1E1E1;
+	border-style: solid;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	font-family: 'Open sans';
+	font-size: 20px;
+}
+.Apellido input{
+	border-color: #E1E1E1;
+	border-style: solid;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	font-family: 'Open sans';
+	font-size: 20px;
+}
+
+.Correo input, .Contraseña input{
+	border-color: #E1E1E1;
+	border-style: solid;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	font-family: 'Open sans';
+	font-size: 20px;
+}
+
+.Correo input:hover, .Contraseña input:hover, .Nombre input:hover, .Apellido input:hover,.Correo input:focus, .Contraseña input:focus, .Nombre input:focus, .Apellido input:focus{
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #DD0707;
+	box-shadow: 0px 0px 5px #DD0707;
+	outline: none;
+}
+
+
+
+
+
+
+div{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 40px;
+}
+
+.Crear{
+	border: none;
+	margin-top: 30px;
+	margin-left: 190px;
+	color: white;
+	background: #424242;
+	border-radius: 50px;
+	width: 100px;
+	height: 30px;
+	font-family: 'Open sans';
+	font-size: 22px;
+}
+
+.Crear:hover{
+	border: none;
+	color: white;
+	background: #DD0707;
+}
+
+
+table{
+	margin: 0px auto;
+}

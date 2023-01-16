@@ -1,0 +1,52 @@
+<form action="Iniciar secion.html">
+  <h1>Crea tu cuenta</h1>
+
+  <table>
+
+
+    <tr><!--Nombre/Apellido-->
+      <td class="Nombre">
+        <input type="text" id="nombre" placeholder="Nombre">
+      </td>
+
+      <td class="Apellido">
+        <input name="apellido" type="text" placeholder="Apellido">
+      </td>
+    </tr>
+
+
+    <tr><!--Correo/Contraseña-->
+      <td class="Correo">
+        <input name="correo" type="email" placeholder="E-mail" class="email" required>
+      </td>
+
+      <td class="Contraseña">
+        <input type="password" name="pass" placeholder="Contraseña" class="contraseña" required>
+      </td>
+    </tr>
+  </table>
+
+  <div class="Notificacion">
+    <input name="notificacion" type="checkbox">
+    <span class="checkmark"></span>
+    <label>Recibir informacion sobre las ultimas novedades</label><br>
+  </div>
+
+  <div class="Aceptacion">
+    <input name="aceptacion" type="checkbox" required>
+    <span class="checkmark"></span>
+    <label>He leido y aceptado las condiciones y terminos de uso</label><br>
+  </div>
+
+  <div class="Premiun">
+    <input name="premiun" type="checkbox">
+    <span class="checkmark"></span>
+    <label> ¿Desea tener una cuenta <em>Premium</em>? Mas informacion <a href="Premium.html"
+        style="color:#E35454">aqui</a></label>
+  </div>
+
+
+  <!--Boton crear cuenta-->
+  <input name="Crear" value="Crear" type="submit" class="Crear">
+
+</form>
