@@ -1,3 +1,7 @@
+*{
+    font-family: Candara;
+}
+
 
 form{
   margin-top: 80px;
@@ -21,7 +25,7 @@ div{
 	  box-shadow: 0px 0px 20px -4px rgb(13, 255, 8);
   }
   50%{
-	  box-shadow: 0px 0px 30px -4px rgb(13, 255, 8);
+	  box-shadow: 0px 0px 150px -4px rgb(13, 255, 8);
   }
   0%{
 	  box-shadow: 0px 0px 20px -4px rgb(13, 255, 8);
@@ -53,26 +57,27 @@ h2{
 	border-radius: 10px;
 	width: 130px;
 	height: 40px;
-	font-family: 'Open sans';
 	font-size: 22px;
 }
 .Iniciar:hover{
 	background: rgb(13, 255, 8);
-	font-family: 'Open sans';
 	font-size: 22px;
 }
 
 .email, .contraseña{
+  padding-left: 5px;
 	border-color: #E1E1E1;
 	border-style: solid;
 	margin-bottom: 20px;
 	border-radius: 10px;
 	width: 250px;
 	height: 30px;
-	font-family: 'Open sans';
 	font-size: 20px;
 }
 
 .email:hover, .contraseña:hover, .email:focus, .contraseña:focus{
-	border:2px solid rgb(13, 255, 8);
+	border-style: solid;
+	border-radius: 5px;
+	border-color:  rgb(13, 255, 8);
+	outline: none;
 }

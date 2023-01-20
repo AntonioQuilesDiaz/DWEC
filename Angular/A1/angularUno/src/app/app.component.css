@@ -1,3 +1,11 @@
+.formulario{
+  margin-top: 15%;
+  display: flex;
+}
+
 inicio-secion{
-  margin-top: 10%;
+  margin: 0 auto;
+}
+crear-cuenta{
+  margin: 0 auto;
 }
