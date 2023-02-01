@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioSecionComponent } from './Componentes/inicio-secion/inicio-secion.component';
 import { CrearCuentaComponent } from './Componentes/crear-cuenta/crear-cuenta.component';
+import { MenuComponent } from './Componentes/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioSecionComponent,
-    CrearCuentaComponent
+    CrearCuentaComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
