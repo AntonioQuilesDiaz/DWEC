@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
@@ -6,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        /*"azul-claro":"#37bcf9",*/
+        bordeimage: '#ffeac7'
       },
       keyframes:{
         pisadas1:{
@@ -58,6 +57,10 @@ module.exports = {
         'formulario': '400px',
         'input': '50px'
       },
+      boxShadow: {
+        'sombra': '15px 15px 11px -9px rgba(0,0,0,0.48)',
+        'sombrahome': '10px 0px 20px -0px rgba(0,0,0,0.48)'
+      }
     },
   variants: {
     extend: {

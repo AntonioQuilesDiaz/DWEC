@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Huella1Component } from './huella1.component';
+import { VolverLoginComponent } from './volver-login.component';
 
-describe('Huella1Component', () => {
-  let component: Huella1Component;
-  let fixture: ComponentFixture<Huella1Component>;
+describe('VolverLoginComponent', () => {
+  let component: VolverLoginComponent;
+  let fixture: ComponentFixture<VolverLoginComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Huella1Component ]
+      declarations: [ VolverLoginComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Huella1Component);
+    fixture = TestBed.createComponent(VolverLoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

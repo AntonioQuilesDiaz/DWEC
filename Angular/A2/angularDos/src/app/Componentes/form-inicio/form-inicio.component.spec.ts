@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Huella2Component } from './huella2.component';
+import { FormInicioComponent } from './form-inicio.component';
 
-describe('Huella2Component', () => {
-  let component: Huella2Component;
-  let fixture: ComponentFixture<Huella2Component>;
+describe('FormInicioComponent', () => {
+  let component: FormInicioComponent;
+  let fixture: ComponentFixture<FormInicioComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Huella2Component ]
+      declarations: [ FormInicioComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Huella2Component);
+    fixture = TestBed.createComponent(FormInicioComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

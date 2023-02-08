@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FlechaVolverComponent } from './flecha-volver.component';
+import { HuellaIZComponent } from './huella-iz.component';
 
-describe('FlechaVolverComponent', () => {
-  let component: FlechaVolverComponent;
-  let fixture: ComponentFixture<FlechaVolverComponent>;
+describe('HuellaIZComponent', () => {
+  let component: HuellaIZComponent;
+  let fixture: ComponentFixture<HuellaIZComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FlechaVolverComponent ]
+      declarations: [ HuellaIZComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FlechaVolverComponent);
+    fixture = TestBed.createComponent(HuellaIZComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
