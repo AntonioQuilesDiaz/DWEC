@@ -11,6 +11,12 @@ import { FormInicioComponent } from './Componentes/form-inicio/form-inicio.compo
 import { HuellaDERComponent } from './Componentes/huella-der/huella-der.component';
 import { FormRegistroComponent } from './Componentes/form-registro/form-registro.component';
 import { VolverLoginComponent } from './Componentes/volver-login/volver-login.component';
+import { MenuComponent } from './Componentes/menu/menu.component';
+import { LogoMedianoComponent } from './Componentes/logo-mediano/logo-mediano.component';
+import { HomeComponent } from './pages/home/home.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
+import { MisMascotasComponent } from './pages/mis-mascotas/mis-mascotas.component';
+import { AnadirMascotasComponent } from './pages/anadir-mascotas/anadir-mascotas.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +29,12 @@ import { VolverLoginComponent } from './Componentes/volver-login/volver-login.co
     HuellaDERComponent,
     FormRegistroComponent,
     VolverLoginComponent,
+    MenuComponent,
+    LogoMedianoComponent,
+    HomeComponent,
+    PerfilComponent,
+    MisMascotasComponent,
+    AnadirMascotasComponent,
   ],
   imports: [
     BrowserModule,
