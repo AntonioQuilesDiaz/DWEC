@@ -1,4 +1,4 @@
-export class pokemon{
+export class pokemons{
   public name: String;
 
   constructor(name:String){

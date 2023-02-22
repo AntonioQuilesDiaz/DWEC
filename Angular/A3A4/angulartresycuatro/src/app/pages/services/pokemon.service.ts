@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import{HttpClient, HttpHeaders, HttpRequest} from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Global } from "./global";
-import { pokemon } from "src/app/models/pokemon";
+import { pokemons } from "src/app/models/pokemon";
 
 @Injectable()
 export class PokeService {
