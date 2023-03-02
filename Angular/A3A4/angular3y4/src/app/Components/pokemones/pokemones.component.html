@@ -1,0 +1,15 @@
+<div class="div-grande">
+  <div class="div1">
+    <h1>Pokemones</h1>
+    <select (change)="changePokemons($event)" name="pokemons" id="pokemons" class="selector">
+      <option value="10" selected>Fuego</option>
+      <option value="11">Agua</option>
+      <option value="12">Planta</option>
+    </select>
+  </div>
+  <table>
+    <tr *ngFor="let index of items">
+      <td class="td1">{{index.pokemon.name}}</td>
+      <td><a href="{{index.pokemon.url}}">{{index.pokemon.url}}</a></td>
+    </tr>
+  </table>

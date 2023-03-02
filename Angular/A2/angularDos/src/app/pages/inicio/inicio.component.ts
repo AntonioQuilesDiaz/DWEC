@@ -12,6 +12,6 @@ export class InicioComponent implements AfterViewInit {
     constructor(private elementRef: ElementRef) {}
     ngAfterViewInit() {
         this.elementRef.nativeElement.ownerDocument
-            .body.style.backgroundColor = '#EB9B14';
+            .body.style.backgroundColor = '#545454';
     }
   }

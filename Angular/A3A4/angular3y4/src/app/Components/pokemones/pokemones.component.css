@@ -1,0 +1,28 @@
+.selector{
+  font-size: 20px;
+  margin: 30px;
+  color: gold;
+  background-color:black;
+}
+.div1{
+  display: flex;
+}
+h1{
+  color: gold;
+  font-size: 40px;
+}
+td{
+  color: white;
+}
+.td1{
+font-size: 20px;
+}
+a{
+  color: gold;
+}
+a:hover{
+  color: white;
+}
+.div-grande{
+  margin-left: 40px;
+}
